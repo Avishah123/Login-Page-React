@@ -1,0 +1,233 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bg {
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg12 {
+  width: auto;
+  height: 750px;
+  opacity: 100%;
+
+}
+
+.bg2 {
+  background-color: blue;
+
+
+}
+
+.bg3 {
+  /* width: -webkit-fill-available; */
+  padding-left: 0px !important;
+  height: auto;
+  width: 100%;
+}
+
+.main-image {
+  background-image: url('./Background1.png');
+  /* background-image: url('./Background.png'); */
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.bg1 {
+
+  background-color: pink;
+  height: 750px;
+  width: 100%;
+
+}
+
+.avi2 {
+  width: 90%;
+  font-size: 1.5rem;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+
+.separator::before {
+  margin-right: .25em;
+}
+
+.separator::after {
+  margin-left: .25em;
+}
+
+.button1 {
+  background-color: white !important;
+  border: none;
+  color: blue;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 8px;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+.button2 {
+  background-color: white !important;
+  border: none;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 8px;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+
+
+.hide1 {
+  background-color: transparent;
+  color: transparent;
+}
+
+.avi1234 {
+  z-index: 0;
+
+}
+
+.aviz {
+  z-index: 1;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.testute1 {
+  margin-top: -70px;
+}
+
+
+
+.login-btn {
+  background-color: #FBBC04 !important;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 16px 16px;
+  width: 90%;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+.signup-btn {
+  background-color: #4285F4 !important;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 16px 16px;
+  width: 90%;
+  cursor: pointer;
+  border-radius: 100px;
+
+}
+
+.avi-text {
+  font-size: 25px;
+  color: white;
+  padding: 10px;
+}
+
+@media (max-width: 991.98px) {
+  .testute1 {
+    margin-top: 0px;
+
+  }
+
+  .signup-btn {
+    font-size: 20px;
+  }
+
+  .login-btn {
+    font-size: 20px;
+  }
+}
+
+.avi-align {
+  text-align: end;
+}
+
+@media (max-width: 768px) {
+  .bg12 {
+    width: -webkit-fill-available;
+    padding-left: 100px;
+    padding-right: 60px;
+
+  }
+}
+
+@media (max-width :600px) {
+  .bg12 {
+    padding-left: 30px !important;
+    padding-right: 20px !important;
+  }
+}
